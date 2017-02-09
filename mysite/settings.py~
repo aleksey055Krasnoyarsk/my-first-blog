@@ -25,7 +25,7 @@ SECRET_KEY = '#!)&_@rc%bn$g4ej75xa%6uod%)&$x8$v_&!o&6y53dubp_ao*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hatsunami.pythonanywhere.com',]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 ]
 
 MIDDLEWARE = [
